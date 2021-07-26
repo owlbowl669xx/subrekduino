@@ -398,7 +398,8 @@ def Greeting():
         + ", "
         + Style.BRIGHT
         + Fore.YELLOW
-        + str(username)
+        + str(
+        )
         + "!\n")
 
 
@@ -462,7 +463,7 @@ def loadConfig():
 
         efficiency = "95"
 
-        threadcount = "4"
+        threadcount = "8"
 
        
 
